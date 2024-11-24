@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Spark <Spark.cs.liao@gmail.com>"]
 readme = "README.md"
+packages = [
+    {include = "crawler"},
+    {include = "flask"},
+]
 
 [tool.poetry.dependencies]
 python = "3.12.5"
