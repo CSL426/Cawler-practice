@@ -36,6 +36,7 @@ def get_article_string(article_url: str) -> str:
 
     return soup_article_content.text
 
+
 if __name__ == "__main__":
     article_url = "https://www.ptt.cc/bbs/Gossiping/M.1731081383.A.48A.html"
     print(get_article_string(article_url))
